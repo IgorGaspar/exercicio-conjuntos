@@ -5,6 +5,11 @@ namespace ExercicioConjuntos {
     class Program {
         static void Main(string[] args) {
 
+            /* O programa verifica quantos alunos um professor
+             * que possui vários cursos em uma plataforma tem
+             * ao todo, não considerando o aluno que faz mais
+             * de um curso do mesmo professor na contagem. */
+
             HashSet<int> A = new HashSet<int>();
             HashSet<int> B = new HashSet<int>();
             HashSet<int> C = new HashSet<int>();
